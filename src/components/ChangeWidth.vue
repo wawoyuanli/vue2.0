@@ -34,10 +34,10 @@ export default {
 .x-handle {
   width: 5px;
   cursor: crosshair;
-  background: #881111;
+  background: #ffffff;
   height: 30px;
   position: absolute;
+  top: 10px;
   right: 0;
-  top: 40%;
 }
 </style>
