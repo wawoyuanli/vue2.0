@@ -1,7 +1,6 @@
 const http=require('../utils/http.js')
-
-
 const getHello=()=>{
+    console.log(http,'http')
   return  http({
         url:'/hello',
         method:"GET"

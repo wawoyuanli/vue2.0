@@ -9,7 +9,7 @@ module.exports = {
     hot: true, // 开启热加载
     proxy: {
       [process.env.VUE_APP_API]: {
-        target: "http://hyl.kingtool.top",
+        target: "http://192.168.124.13:9589",
         changeOrigin: true,
         // pathRewrite: {
         //   ["^" + process.env.VUE_APP_API]: "",
