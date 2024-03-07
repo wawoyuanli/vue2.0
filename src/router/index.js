@@ -12,11 +12,6 @@ const router = new Router({
       name: "home",
       component: () => import("../views/indexDrag.vue"),
     },
-    {
-      path: "/home",
-      name: "home",
-      component: () => import("../views/indexDrag.vue"),
-    },
   ],
 });
 
