@@ -24,6 +24,7 @@ Vue.directive('focus', {
     console.log('unbind：只调用一次，在指令与元素解绑时调用')
    }
 });
+// window.location.hash = 'computedIndex'
 new Vue({
   router,
   render: h => h(App),
